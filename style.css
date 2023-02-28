@@ -11,6 +11,13 @@ body{
 	color: var(--text-primary-color);
 }
 
+
+.loading-indicator{
+	display: none;
+	text-align: center;
+	
+}
+
 .box{
 	background-color: hsl(217, 19%, 24%);
 	display: flex;
@@ -46,8 +53,8 @@ body{
 	display: flex;
 	justify-content: center;
 	padding: .7rem;
-	position: relative;
-	top: 25px;
+	position: fixed;
+	top: 46%;
 	cursor: pointer;
 }
 
