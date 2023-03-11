@@ -28,7 +28,7 @@ body{
 	height: 150px;
 	margin: 3rem auto;
 	padding: 2rem 2rem 1rem 2rem;
-	
+	position: relative;
 	border-radius: 10px;
 }
 
@@ -53,8 +53,8 @@ body{
 	display: flex;
 	justify-content: center;
 	padding: .7rem;
-	position: fixed;
-	top: 46%;
+	position: absolute;
+	top: 93%;
 	cursor: pointer;
 }
 
